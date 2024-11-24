@@ -114,10 +114,6 @@
   justify-content: space-between;
 }
 
-.header__list {
-  list-style-type: none;
-}
-
 .header__address {
   display: flex;
   position: absolute;
