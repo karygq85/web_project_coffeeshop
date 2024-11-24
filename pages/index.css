@@ -7,4 +7,121 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  background-color: #fff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+
+.header {
+  background-image: url("../images/background_header.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header__tittle {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 709px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  letter-spacing: -1;
+  left: 80px;
+  bottom: 28px;
+}
+
+.header__span-accent {
+  display: flex;
+  color: #2f80ed;
+  font-family: "Noto Serif", Times, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 72px;
+  font-size: 58px;
+}
+
+.header__description {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  left: 80px;
+}
+
+.header__image {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  display: flex;
+  margin-top: auto;
+  position: relative;
+  left: 80px;
+  bottom: 40px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  justify-content: space-between;
+}
+
+.header__footer__list {
+  list-style-type: none;
+}
+
+.header__footer_paragraph {
+  display: flex;
+  position: relative;
+  right: 80px;
+  margin-top: auto;
+  margin-right: 80px;
 }
