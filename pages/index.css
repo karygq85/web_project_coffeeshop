@@ -114,16 +114,21 @@
   justify-content: space-between;
 }
 
-.header__footer__list {
+.header__footer_list {
   list-style-type: none;
 }
 
-.header__footer_paragraph {
+.header__address {
   display: flex;
-  position: relative;
+  position: absolute;
   right: 80px;
+  bottom: 20px;
   margin-top: auto;
   margin-right: 80px;
+}
+
+.header__paragraph {
+  margin: 0;
 }
 
 .recipes {
