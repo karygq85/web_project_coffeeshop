@@ -139,7 +139,6 @@
   display: flex;
   flex-direction: column;
   color: #fff;
-  position: relative;
 }
 
 .recipes__title {
@@ -164,7 +163,6 @@
 
 .recipes__videos {
   display: flex;
-  position: relative;
   column-gap: 40px;
   justify-content: center;
 }
@@ -183,4 +181,50 @@
   line-height: 30px;
   display: flex;
   justify-content: space-between;
+}
+
+/* Reservatio */
+
+.reservation__content {
+  display: flex;
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 720px;
+  max-height: 800px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__content-form {
+  max-width: 385px;
+  height: 100vh;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.reservation__form {
+}
+
+.reservation__content-title {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.reservation__tittle {
+  color: #000;
+}
+
+.form__label {
+  margin: 35px auto 0;
+  display: block;
+}
+
+.form__input {
+  margin: auto;
+  border: 0px;
+}
+
+.form__checkbox {
 }
