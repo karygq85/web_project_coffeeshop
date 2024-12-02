@@ -183,7 +183,7 @@
   justify-content: space-between;
 }
 
-/* Reservatio */
+/* Reservation */
 
 .reservation__content {
   display: flex;
@@ -194,6 +194,7 @@
   background-size: cover;
   min-height: 720px;
   max-height: 800px;
+  height: 100%;
   flex-direction: column;
   align-items: center;
 }
@@ -202,9 +203,11 @@
   max-width: 385px;
   height: 100vh;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  border: none;
 }
 
-.reservation__form {
+.form__field {
+  border: none;
 }
 
 .reservation__content-title {
@@ -217,14 +220,43 @@
 }
 
 .form__label {
-  margin: 35px auto 0;
   display: block;
+  margin-bottom: 8px;
 }
 
 .form__input {
-  margin: auto;
+  width: 100%;
+  border-radius: 2px;
   border: 0px;
+  height: 60px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
 }
 
 .form__checkbox {
+  border-radius: 2px;
+}
+
+.form__input::placeholder {
+  font-size: 20px;
+  color: #6f6f6f;
+  padding-top: 15px;
+}
+
+.form__button {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.form__button::hover {
+  opacity: 70%;
+}
+
+.form__checkbox-text {
+  padding-left: 12px;
+}
+
+.form__checkbox-label {
 }
