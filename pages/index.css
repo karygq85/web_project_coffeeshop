@@ -185,7 +185,7 @@
 
 /* Reservation */
 
-.reservation__content {
+.reservation {
   display: flex;
   background-color: #d9e7ff;
   background-image: url("../images/background_reservation.svg");
@@ -208,17 +208,17 @@
 }
 
 .reservation__content-title {
+  box-sizing: border-box;
+}
+
+.reservation__title {
+  margin: 0%;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   padding: 100px 0 80px 0;
-  box-sizing: border-box;
-}
-
-.reservation__title {
-  margin: 0%;
 }
 
 .form__label {
