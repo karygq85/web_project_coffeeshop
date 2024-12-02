@@ -285,7 +285,7 @@
   display: inline;
 }
 
-.checkbox__content {
+.reservation__checkbox-content {
   padding-top: 32px;
   display: flex;
   justify-content: center;
