@@ -22,8 +22,9 @@
   display: flex;
   justify-content: space-between;
   color: #fff;
-  padding-top: 60px;
-  padding-left: 80px;
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .footer__logo-image {
@@ -31,17 +32,48 @@
   height: 39px;
 }
 
-.copyright {
+.footer__list-ul {
+  list-style-type: none;
+}
+
+.footer__list-li {
+  padding-top: 16px;
+}
+
+.footer__copyright {
   display: flex;
   z-index: 2;
   padding: 140px 70px 60px;
 }
 
-.footer__copyright {
+.footer__author {
   color: #fff;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+}
+
+.footer__social-icon {
+  padding-right: 10px;
+}
+
+.footer__social-heading {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.footer__social-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
